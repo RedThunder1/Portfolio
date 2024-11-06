@@ -32,6 +32,13 @@ const About = () => {
                         </li>
                     </ul>
                 </div>
+                <div className="skills">
+                    <ul className="skills_list">
+                        <li className="skills_item">
+
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     )
