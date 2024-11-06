@@ -1,3 +1,39 @@
 .about {
     height: 100vh;
 }
+
+.about_info {
+    padding: 50px;
+    display: flex;
+}
+
+.basic_info {
+    width: 70%;
+}
+
+.basic_info > p {
+    width: 50%;
+}
+
+.contact {
+    text-align: center;
+    width: 30%;
+}
+
+.contact_list {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_item {
+
+}
+
+.contact_link {
+    color: #a5a5a5;
+    font-size: 50px;
+}
+
+.contact_link:hover {
+    color: white;
+}

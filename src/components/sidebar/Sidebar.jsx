@@ -6,8 +6,8 @@ import Logo from "../../assets/SpartanLogo.png"
 const Sidebar = () => {
     return (
         <aside className="sidebar">
-            <a href="javascript:document.getElementById('home').scrollIntoView({behavior: 'smooth'})" className="sidebar__logo">
-                <img src={Logo} alt="Logo" />
+            <a href="javascript:document.getElementById('home').scrollIntoView({behavior: 'smooth'})">
+                <img src={Logo} alt="Logo" className="sidebar_logo"/>
             </a>
 
             <nav className="nav">
@@ -24,12 +24,6 @@ const Sidebar = () => {
                             <a href="javascript:document.getElementById('about').scrollIntoView({behavior: 'smooth'})"
                                className="nav__link">
                                 <i className="icon-user"></i>
-                            </a>
-                        </li>
-                        <li className="nav__item">
-                            <a href="javascript:document.getElementById('resume').scrollIntoView({behavior: 'smooth'})"
-                               className="nav__link">
-                                <i className="icon-briefcase"></i>
                             </a>
                         </li>
                         <li className="nav__item">

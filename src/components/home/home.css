@@ -8,7 +8,6 @@
     width: fit-content;
     right: 45%;
     top: 30%;
-    font-family: "Lucida Console", "Courier New", monospace;
 }
 h1 {
     font-size: 100px;
@@ -17,6 +16,6 @@ h2 {
     padding: 20px;
     font-size: 30px;
 }
-p {
+.info > p {
     padding: 30px;
 }
