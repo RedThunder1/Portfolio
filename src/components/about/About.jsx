@@ -4,13 +4,15 @@ import "./about.css"
 const About = () => {
     return (
         <div className="about" id="about">
+            <h1>About</h1>
             <div className="basic_info">
-                <h1>About</h1>
                 <div className="about">
                     <div className="about_description">
                         <p> Welcome to my portfolio page!
-                            My name is James Haver, a student attending the University of Nebraska Omaha pursuing a computer
-                            science degree. I like to create projects, solve problems, and to learn more. I am experienced in Java, and
+                            My name is James Haver, a student attending the University of Nebraska Omaha pursuing a
+                            computer
+                            science degree. I like to create projects, solve problems, and to learn more. I am
+                            experienced in Java, and
                             Python with intermediate Knowledge of HTML, JavaScript/TypeScript, and CSS.
                         </p>
                     </div>

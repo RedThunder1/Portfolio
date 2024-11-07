@@ -3,6 +3,10 @@
     display: block;
 }
 
+.about > h1 {
+    text-align: center;
+}
+
 .basic_info {
     display: flex;
     flex-direction: column;
