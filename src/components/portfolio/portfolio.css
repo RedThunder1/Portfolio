@@ -1,37 +1,15 @@
+.portfolio {
+    height: fit-content;
+}
+
 .projects {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(2, 1fr);
-    position: absolute;
-    width: 100%;
-    height: 100%;
+
 }
 
 .thunderbox_project {
-    text-align: center;
-    height: 300px;
-    grid-column: 1;
-    grid-row: 1;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-}
-
-.thunderbox_logo {
-    align-self: center;
-    height: 300px;
-    width: 300px;
-}
-
-.thunderbox_project > a {
-    color: white;
-    font-size: 50px;
-}
-
-.thunderbox_project > a:hover {
-    color: red;
-}
-
-.description {
-    padding: 10px;
+    height: 500px;
+    width: 1200px;
+    background-color: #282b35;
+    position: absolute;
+    left: 25%;
 }

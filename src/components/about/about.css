@@ -1,23 +1,42 @@
 .about {
     height: 100vh;
-}
-
-.about_info {
-    padding: 50px;
-    display: flex;
+    display: block;
 }
 
 .basic_info {
+    display: flex;
+    flex-direction: column;
     width: 70%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.about_description {
+    padding: 10px;
+    width: 50%;
+    height: fit-content;
 }
 
 .basic_info > p {
     width: 50%;
 }
 
+.skills {
+
+}
+
+.skills > h2 {
+    font-size: 75px;
+}
+
 .contact {
+    position: absolute;
     text-align: center;
     width: 30%;
+    right: 0;
 }
 
 .contact_list {
