@@ -1,5 +1,4 @@
 import React from 'react';
-import {PDFViewer, Document, Page} from "react-pdf";
 import "./about.css"
 import Resume from '../../assets/Resume.pdf'
 import Java from '../../assets/icons/java.png'
