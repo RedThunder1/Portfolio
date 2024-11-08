@@ -1,6 +1,6 @@
 import React from "react";
 import './portfolio.css'
-import Logo from '../../assets/ThunderBox.png'
+import Logo from '../../assets/ThunderBoxScreen.png'
 
 const Portfolio = () => {
     return (
@@ -11,8 +11,7 @@ const Portfolio = () => {
                     <div className="movement_div"></div>
                     <a href="https://github.com/RedThunder1/ThunderBox"></a>
                     <h2>ThunderBox</h2>
-                    <p>Web music player</p>
-                    <img src={Logo} alt="ThunderBox logo" className="thunderbox_logo"/>
+                    <p>ThunderBox is a project of mine where I am creating a web music player. It is currently a work in progress.</p>
                 </div>
             </div>
         </div>
