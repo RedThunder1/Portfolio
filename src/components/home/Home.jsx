@@ -11,6 +11,7 @@ function Home() {
                 <p>     Hi! My name is James Haver and im currently pursuing a degree in computer science at the University of Nebraska at Omaha.
                     I love to solve problems and im willing learner seeking to increase my knowledge of the industry.
                     I have a passion for all things tech and love creating projects.</p>
+                <a className="about_me_button" href="javascript:document.getElementById('about').scrollIntoView({behavior: 'smooth'})">About Me<i className="icon-arrow-right"/></a>
             </div>
             <img className="background" src={Logo} alt="Logo" draggable='False'></img>
 

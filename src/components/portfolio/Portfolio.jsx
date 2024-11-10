@@ -8,7 +8,6 @@ const Portfolio = () => {
             <h1>Projects</h1>
             <div className="projects">
                 <div className="thunderbox_project">
-                    <div className="movement_div"></div>
                     <a href="https://github.com/RedThunder1/ThunderBox"></a>
                     <h2>ThunderBox</h2>
                     <p>ThunderBox is a project of mine where I am creating a web music player. It is currently a work in progress.</p>

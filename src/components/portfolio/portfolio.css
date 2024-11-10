@@ -52,15 +52,7 @@
 .thunderbox_project:hover {
     background-color: #3a3d47;
     box-shadow: 8px 8px 5px black;
-    -webkit-transition: background-color, box-shadow 200ms linear;
-    -ms-transition: background-color, box-shadow 200ms linear;
-    transition: background-color, box-shadow 200ms linear;
 }
-
-.thunderbox_project:hover .movement_div {
-    animation: swoosh 0.25s linear forwards;
-}
-
 
 .thunderbox_project > h2 {
     font-size: 55px;

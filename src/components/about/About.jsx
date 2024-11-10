@@ -1,4 +1,4 @@
-import React from 'react';
+   import React from 'react';
 import "./about.css"
 import Resume from '../../assets/Resume.pdf'
 import Java from '../../assets/icons/java.png'
@@ -23,15 +23,15 @@ const About = () => {
                 <div className="skills">
                     <h2>Skills</h2>
                     <ul className="skills_list">
-                        <li className="skills_item"><img src={HTML} alt="HTML Icon" className="skills_img"/></li>
-                        <li className="skills_item"><img src={CSS} alt="CSS Icon" className="skills_img"/></li>
-                        <li className="skills_item"><img src={JS} alt="JavaScript Icon" className="skills_img"/></li>
-                        <li className="skills_item"><img src={TS} alt="TypeScript Icon" className="skills_img"/></li>
-                        <li className="skills_item"><img src={Java} alt="Java Icon" className="skills_img"/></li>
-                        <li className="skills_item"><img src={Kotlin} alt="Kotlin Icon" className="skills_img"/></li>
-                        <li className="skills_item"><img src={Python} alt="Python Icon" className="skills_img"/></li>
-                        <li className="skills_item"><img src={REACT} alt="React Icon" className="skills_img"/></li>
-                        <li className="skills_item"><img src={Node} alt="Node Icon" className="skills_img"/></li>
+                        <li className="skills_item"><img src={HTML} alt="HTML Icon" className="skills_img"/><p>HTML</p></li>
+                        <li className="skills_item"><img src={CSS} alt="CSS Icon" className="skills_img"/><p>CSS</p></li>
+                        <li className="skills_item"><img src={JS} alt="JavaScript Icon" className="skills_img"/><p>JavaScript</p></li>
+                        <li className="skills_item"><img src={TS} alt="TypeScript Icon" className="skills_img"/><p>TypeScript</p></li>
+                        <li className="skills_item"><img src={Java} alt="Java Icon" className="skills_img"/><p>Java</p></li>
+                        <li className="skills_item"><img src={Kotlin} alt="Kotlin Icon" className="skills_img"/><p>Kotlin</p></li>
+                        <li className="skills_item"><img src={Python} alt="Python Icon" className="skills_img"/><p>Python</p></li>
+                        <li className="skills_item"><img src={REACT} alt="React Icon" className="skills_img"/><p>React</p></li>
+                        <li className="skills_item"><img src={Node} alt="Node Icon" className="skills_img"/><p>Node.JS</p></li>
                     </ul>
                 </div>
                 <div className="contact">

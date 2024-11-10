@@ -40,6 +40,19 @@
     justify-content: center;
 }
 
+.skills_item > p {
+    color: transparent;
+    font-weight: bold;
+    text-decoration: underline rgba(0, 0, 0, 0);
+    transition: color 300ms;
+}
+
+.skills_item:hover > p {
+    color: black;
+    transition: text-decoration-color 300ms;
+    text-decoration: underline rgba(0, 0, 0, 1);
+}
+
 .skills_img {
     width: 100px;
     padding: 10px;
@@ -58,9 +71,12 @@
 .contact_link {
     color: black;
     font-size: 50px;
+    text-decoration: underline rgba(255, 0, 0, 0);
+    transition: text-decoration-color 300ms;
 }
 
 .contact_link:hover {
+    text-decoration-color: rgba(255, 0, 0, 1);
     color: red;
 }
 
