@@ -2,14 +2,22 @@ import React from 'react';
 import "./sidebar.css"
 import Logo from "../../assets/Logo.png"
 
+function opencloseSidebar() {
+    const sidebar = document.getElementById("sidebar");
+    console.log("clicked");
+    if (sidebar.style.width !== "100px") {
+        sidebar.style.width = "100px";
+    } else {
+        sidebar.style.width = "0px";
+    }
+}
 
 const Sidebar = () => {
     return (
-        <aside className="sidebar">
-            <a href="javascript:document.getElementById('home').scrollIntoView({behavior: 'smooth'})">
+        <aside className="sidebar" id="sidebar">
+            <a onClick={opencloseSidebar} className="sidebar_button">
                 <img src={Logo} alt="Logo" className="sidebar_logo" draggable="false"/>
             </a>
-
             <nav className="nav">
                 <div className="nav__menu">
                     <ul className="nav__list">
@@ -34,10 +42,6 @@ const Sidebar = () => {
                         </li>
                     </ul>
                 </div>
-            </nav>
-
-            <nav className="nav__footer">
-
             </nav>
         </aside>
     )
