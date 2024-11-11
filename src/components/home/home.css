@@ -5,6 +5,18 @@
     background: linear-gradient(135deg, rgb(4, 11, 37), #282b35);
 }
 
+@media screen and (max-width: 800px) {
+    .info > h1 {
+        font-size: 65px;
+    }
+    .info > h2 {
+        font-size: 25px;
+    }
+    .info {
+        max-width: 100%;
+    }
+}
+
 .background {
     width: 50%;
     position: absolute;
