@@ -1,0 +1,35 @@
+.footer {
+    width: 100%;
+    height: 260px;
+    background-color: #191818;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #a3a3a3;
+    padding-top: 10px;
+}
+
+.logo {
+    height: 100px;
+    padding: 10px;
+}
+
+.media_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.media_link {
+    padding: 15px;
+    font-size: 30px;
+}
+
+.media_link > a {
+    color: #a3a3a3;
+}
+
+.media_link > a:hover {
+    color: white;
+}

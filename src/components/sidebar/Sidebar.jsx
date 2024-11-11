@@ -1,13 +1,13 @@
 import React from 'react';
 import "./sidebar.css"
-import Logo from "../../assets/SpartanLogo.png"
+import Logo from "../../assets/Logo.png"
 
 
 const Sidebar = () => {
     return (
         <aside className="sidebar">
             <a href="javascript:document.getElementById('home').scrollIntoView({behavior: 'smooth'})">
-                <img src={Logo} alt="Logo" className="sidebar_logo"/>
+                <img src={Logo} alt="Logo" className="sidebar_logo" draggable="false"/>
             </a>
 
             <nav className="nav">
