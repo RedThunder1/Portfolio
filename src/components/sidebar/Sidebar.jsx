@@ -3,12 +3,15 @@ import "./sidebar.css"
 
 function opencloseSidebar() {
     const sidebar = document.getElementById("sidebar");
+    const menu_button = document.getElementById("menu_button");
     const main = document.getElementById("main");
     if (sidebar.style.width !== "100px") {
         sidebar.style.width = "100px";
+        menu_button.style.color = "#fd5800"
         main.style.width = "calc(100vw - 100px)"
     } else {
         sidebar.style.width = "0px";
+        menu_button.style.color = "red"
         main.style.width = "100%";
     }
 }
@@ -17,7 +20,7 @@ const Sidebar = () => {
     return (
         <aside>
             <a onClick={opencloseSidebar} className="sidebar_button">
-                <i className="icon-menu"/>
+                <i className="icon-menu" id="menu_button"/>
             </a>
             <div className="sidebar" id="sidebar">
                 <nav className="nav">

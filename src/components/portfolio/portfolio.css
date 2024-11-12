@@ -52,6 +52,8 @@
 .thunderbox_project:hover {
     background-color: #3a3d47;
     box-shadow: 8px 8px 5px black;
+    transform: translate(-2px, -2px);
+    transition: transform 100ms;
 }
 
 .thunderbox_project > h2 {
