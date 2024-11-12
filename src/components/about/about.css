@@ -90,8 +90,10 @@
 
 @media screen and (max-width: 800px) {
     .skills_item {
-        max-width: 45px;
+        max-width: 10%;
         padding: 3px;
+        font-size: 10px;
+        font-weight: bolder;
     }
     .resume {
         width: 100%;
