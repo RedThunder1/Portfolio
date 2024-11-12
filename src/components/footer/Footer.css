@@ -10,6 +10,14 @@
     padding-top: 10px;
 }
 
+.footer a {
+    color: #a3a3a3;
+}
+
+.footer a:hover {
+    color: white;
+}
+
 .logo {
     height: 100px;
     padding: 10px;

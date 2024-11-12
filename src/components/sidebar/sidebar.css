@@ -6,18 +6,45 @@
     transition: width 290ms;
 }
 
-.icon-menu {
-    font-size: 50px;
-    color: #fd5800;
-}
-
 .sidebar_button {
     text-align: center;
     position: absolute;
-    padding: 10px;
+    padding-top: 20px;
     width: 80px;
     height: 80px;
     z-index: 10;
+    left: 20px;
+    transition: left 300ms;
+}
+
+.menu_button {
+    background-color: #ff7300;
+    display: block;
+    width: 60px;
+    height: 5px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    position: relative;
+    top: 0;
+    transition: all .3s ease-in-out;
+}
+
+.sidebar_button.open {
+    left: 0;
+}
+
+.sidebar_button.open span:nth-child(2){
+    opacity: 0;
+}
+
+.sidebar_button.open span:nth-child(1){
+    transform: rotate(45deg);
+    top: 15px;
+}
+
+.sidebar_button.open span:nth-child(3){
+    transform: rotate(-45deg);
+    top: -15px;
 }
 
 .nav {

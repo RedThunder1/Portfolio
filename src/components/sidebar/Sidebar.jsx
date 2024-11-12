@@ -3,26 +3,28 @@ import "./sidebar.css"
 
 function opencloseSidebar() {
     const sidebar = document.getElementById("sidebar");
-    const menu_button = document.getElementById("menu_button");
+    const sidebar_button = document.getElementById("sidebar_button");
     const main = document.getElementById("main");
-    if (sidebar.style.width !== "100px") {
-        sidebar.style.width = "100px";
-        menu_button.style.color = "#fd5800"
-        main.style.width = "calc(100vw - 100px)"
-    } else {
+    if (sidebar.classList.contains("open")) {
         sidebar.style.width = "0px";
-        menu_button.style.color = "red"
         main.style.width = "100%";
+    } else {
+        sidebar.style.width = "100px";
+        main.style.width = "calc(100vw - 100px)";
     }
+    sidebar.classList.toggle("open")
+    sidebar_button.classList.toggle("open");
 }
 
 const Sidebar = () => {
     return (
         <aside>
-            <a onClick={opencloseSidebar} className="sidebar_button">
-                <i className="icon-menu" id="menu_button"/>
+            <a onClick={opencloseSidebar} className="sidebar_button" id="sidebar_button">
+                <span className="menu_button"></span>
+                <span className="menu_button"></span>
+                <span className="menu_button"></span>
             </a>
-            <div className="sidebar" id="sidebar">
+            <div className="sidebar open" id="sidebar">
                 <nav className="nav">
                     <div className="nav__menu">
                         <ul className="nav__list">
