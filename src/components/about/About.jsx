@@ -1,4 +1,4 @@
-   import React from 'react';
+import React from 'react';
 import "./about.css"
 import Resume from '../../assets/Resume.pdf'
 import Java from '../../assets/icons/java.png'

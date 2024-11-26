@@ -14,13 +14,11 @@
 }
 
 .thunderbox_project {
-    height: 400px;
     width: 834px;
+    height: 415px;
     background: linear-gradient( rgba(0, 0, 0, 0.15) 100%, rgba(0, 0, 0, 0.15)100%),url('../../assets/ThunderBoxScreen.png');
     background-size: cover;
-    -webkit-transition: background-color, box-shadow 200ms linear;
-    -ms-transition: background-color, box-shadow 200ms linear;
-    transition: background-color, box-shadow 200ms linear;
+    transition: all 200ms ease-in-out;
     margin: 10px;
     display: grid;
     border-radius: 5px;
@@ -34,26 +32,8 @@
     backdrop-filter: blur(5px);
 }
 
-@keyframes swoosh {
-    0% {
-        width: 0;
-        left: 0;
-    }
-    50% {
-        width: 300px;
-        left: 30%
-    }
-    100% {
-        width: 0;
-        left: 100%;
-    }
-}
-
 .thunderbox_project:hover {
-    background-color: #3a3d47;
-    box-shadow: 8px 8px 5px black;
-    transform: translate(-2px, -2px);
-    transition: transform 100ms;
+    transform: scale(1.02)
 }
 
 .thunderbox_project > h2 {
