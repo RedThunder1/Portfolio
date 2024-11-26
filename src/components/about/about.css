@@ -47,9 +47,9 @@
 }
 
 .skills_item:hover > p {
-    color: black;
+    color: white;
     transition: text-decoration-color 300ms;
-    text-decoration: underline rgba(0, 0, 0, 1);
+    text-decoration: underline white;
 }
 
 .skills_item {
@@ -68,7 +68,7 @@
 }
 
 .contact_link {
-    color: black;
+    color: white;
     font-size: 50px;
     text-decoration: underline rgba(255, 0, 0, 0);
     transition: text-decoration-color 300ms;

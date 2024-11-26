@@ -1,7 +1,6 @@
 .home {
     width: 100%;
     height: 100vh;
-    color: white;
     background: linear-gradient(135deg, rgb(4, 11, 37), #282b35);
 }
 
@@ -33,13 +32,16 @@
     top: 30%;
     padding: 20px;
 }
+
 h1 {
     font-size: 100px;
 }
+
 h2 {
     padding: 20px;
     font-size: 30px;
 }
+
 .info > p {
     padding: 30px;
     white-space: pre-wrap;
@@ -66,45 +68,10 @@ h2 {
     font-weight: bold;
 }
 
-.about_me_button:before {
-    content: '';
-    background: linear-gradient(45deg, white, rgba(0,0,0,0), white, rgba(0,0,0,0));
-    position: absolute;
-    top: -2px;
-    left:-2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing 1s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
-}
-
 .about_me_button:hover:before {
     opacity: 1;
 }
 
 .about_me_button:hover .icon-arrow-right {
     color: white;
-}
-
-.about_me_button:after {
-    z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #111;
-    left: 0;
-    top: 0;
-    border-radius: 10px;
-}
-
-@keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 50% 0; }
-    100% { background-position: 100% 0; }
 }
