@@ -1,10 +1,11 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import "./sidebar.css"
 
 function opencloseSidebar() {
     const sidebar = document.getElementById("sidebar");
     const sidebar_button = document.getElementById("sidebar_button");
     const main = document.getElementById("main");
+
     if (sidebar.classList.contains("open")) {
         sidebar.style.width = "0px";
         main.style.width = "100%";
@@ -16,7 +17,16 @@ function opencloseSidebar() {
     sidebar_button.classList.toggle("open");
 }
 
+function checkIfMobile() {
+    if (window.innerWidth <= 800) {
+        opencloseSidebar()
+    }
+}
+
 const Sidebar = () => {
+    useEffect(() => {
+        checkIfMobile();
+    })
     return (
         <aside>
             <a onClick={opencloseSidebar} className="sidebar_button" id="sidebar_button">

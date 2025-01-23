@@ -2,7 +2,6 @@ import React from 'react';
 import "./about.css"
 import Resume from '../../assets/Resume.pdf'
 import Java from '../../assets/icons/java.png'
-import Kotlin from '../../assets/icons/kotlin.png'
 import JS from '../../assets/icons/js.png'
 import TS from '../../assets/icons/typescript.png'
 import HTML from '../../assets/icons/html.png'
@@ -28,7 +27,6 @@ const About = () => {
                         <li className="skills_item"><img src={JS} alt="JavaScript Icon" className="skills_img"/><p>JavaScript</p></li>
                         <li className="skills_item"><img src={TS} alt="TypeScript Icon" className="skills_img"/><p>TypeScript</p></li>
                         <li className="skills_item"><img src={Java} alt="Java Icon" className="skills_img"/><p>Java</p></li>
-                        <li className="skills_item"><img src={Kotlin} alt="Kotlin Icon" className="skills_img"/><p>Kotlin</p></li>
                         <li className="skills_item"><img src={Python} alt="Python Icon" className="skills_img"/><p>Python</p></li>
                         <li className="skills_item"><img src={REACT} alt="React Icon" className="skills_img"/><p>React</p></li>
                         <li className="skills_item"><img src={Node} alt="Node Icon" className="skills_img"/><p>Node.JS</p></li>

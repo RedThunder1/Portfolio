@@ -1,6 +1,5 @@
 import React from "react";
 import './portfolio.css'
-import Logo from '../../assets/ThunderBoxScreen.png'
 
 const Portfolio = () => {
     return (
@@ -10,7 +9,8 @@ const Portfolio = () => {
                 <div className="thunderbox_project">
                     <a href="https://github.com/RedThunder1/ThunderBox"></a>
                     <h2>ThunderBox</h2>
-                    <p>ThunderBox is a project of mine where I am creating a web music player. It is currently a work in progress.</p>
+                    <p className="tb-description">ThunderBox is a project of mine where I am creating a web music player. It is currently a work in progress.</p>
+                    <p className="link-text">Click to learn more.</p>
                 </div>
             </div>
         </div>
