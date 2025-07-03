@@ -52,9 +52,14 @@
     text-decoration: underline white;
 }
 
+.skills_item:hover {
+    transform: translateY(-10px) scale(1.1);
+}
+
 .skills_item {
     width: 100px;
     padding: 10px;
+    transition: 0.1s ease-in-out;
 }
 
 .contact_list {
