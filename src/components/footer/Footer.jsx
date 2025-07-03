@@ -17,7 +17,7 @@ function Footer() {
                     <a href="mailto:jameshaver04@gmail.com"><i className="icon-envelope"/></a>
                 </li>
             </ul>
-            <p>@ 2024 James Haver | <a href="https://github.com/RedThunder1/Portfolio">Source Code</a></p>
+            <p>© 2024 James Haver | <a href="https://github.com/RedThunder1/Portfolio">Source Code</a></p>
         </div>
     );
 }
