@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.20bd33a0.css",
-    "main.js": "/Portfolio/static/js/main.5e945f2b.js",
+    "main.css": "/Portfolio/static/css/main.ba19dc52.css",
+    "main.js": "/Portfolio/static/js/main.13886b2a.js",
     "static/media/ThunderBoxScreen.png": "/Portfolio/static/media/ThunderBoxScreen.7b3da3d5bbc55f08aa2f.png",
-    "static/media/Resume.pdf": "/Portfolio/static/media/Resume.62a1c7e74405fd20c20b.pdf",
+    "static/media/Resume.pdf": "/Portfolio/static/media/Resume.93dc5815557979ee53de.pdf",
     "static/media/Logo.png": "/Portfolio/static/media/Logo.3a46847cff226655acd3.png",
     "static/media/python.png": "/Portfolio/static/media/python.6a5cbc319ab3ddf8ef92.png",
     "static/media/react.png": "/Portfolio/static/media/react.86c8d9eba03e29814d2a.png",
@@ -11,14 +11,15 @@
     "static/media/java.png": "/Portfolio/static/media/java.ddf8676bd569fe01ab44.png",
     "static/media/css.png": "/Portfolio/static/media/css.57ac229d6c624bed3295.png",
     "static/media/html.png": "/Portfolio/static/media/html.6e930594286d8afe4c79.png",
+    "static/media/kotlin.png": "/Portfolio/static/media/kotlin.e561bb24367c5fce5fcd.png",
     "static/media/typescript.png": "/Portfolio/static/media/typescript.af108db04a54d784da9b.png",
     "static/media/js.png": "/Portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/Portfolio/index.html",
-    "main.20bd33a0.css.map": "/Portfolio/static/css/main.20bd33a0.css.map",
-    "main.5e945f2b.js.map": "/Portfolio/static/js/main.5e945f2b.js.map"
+    "main.ba19dc52.css.map": "/Portfolio/static/css/main.ba19dc52.css.map",
+    "main.13886b2a.js.map": "/Portfolio/static/js/main.13886b2a.js.map"
   },
   "entrypoints": [
-    "static/css/main.20bd33a0.css",
-    "static/js/main.5e945f2b.js"
+    "static/css/main.ba19dc52.css",
+    "static/js/main.13886b2a.js"
   ]
 }
