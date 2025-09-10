@@ -23,10 +23,11 @@
     width: 50%;
     position: absolute;
     right: 10%;
+    z-index: 2;
 }
 
 .info {
-    z-index: 1;
+    z-index: 2;
     position: absolute;
     width: 650px;
     top: 30%;
@@ -60,6 +61,7 @@ h2 {
     font-weight: bold;
     color: white;
     transition: 0.3s ease-in-out;
+    z-index: 2;
 }
 
 .icon-arrow-right {
@@ -79,4 +81,97 @@ h2 {
 
 .about_me_button:hover .icon-arrow-right {
     color: white;
+}
+
+.bg_effect object {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: rgba(234, 30, 30, 0.2);
+    border: 3px solid rgba(246, 10, 10, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -160px;
+    z-index: 1;
+}
+
+.bg_effect object:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+.bg_effect object:nth-child(2){
+    left: 5%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+.bg_effect object:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+.bg_effect object:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+.bg_effect object:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+.bg_effect object:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+.bg_effect object:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+.bg_effect object:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+.bg_effect object:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+.bg_effect object:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-100vh) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
 }

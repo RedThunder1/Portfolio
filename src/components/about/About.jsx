@@ -18,7 +18,7 @@ const About = () => {
             <div className="about_info">
                 <p className="about_description"> Welcome to my portfolio page!
                     My name is James Haver, I'm student attending the University of Nebraska at Omaha pursuing a
-                    computer science degree. I love to create projects, solve problems and learn. I am always seeking to learn and teach myself more and create better projects.
+                    Computer Science degree with a concentration in Software Engineering. I love to create projects, solve problems and learn. I am always seeking to learn and teach myself more and create better and more interesting projects.
                 </p>
                 <div className="skills">
                     <h2>Skills</h2>

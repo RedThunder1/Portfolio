@@ -13,6 +13,18 @@ function Home() {
                     I have a passion for all things tech and love creating projects.</p>
                 <a className="about_me_button" href="javascript:document.getElementById('about').scrollIntoView({behavior: 'smooth'})">About Me<i className="icon-arrow-right"/></a>
             </div>
+            <div className="bg_effect">
+                <object/>
+                <object/>
+                <object/>
+                <object/>
+                <object/>
+                <object/>
+                <object/>
+                <object/>
+                <object/>
+                <object/>
+            </div>
             <img className="background" src={Logo} alt="Logo" draggable='False'></img>
 
         </div>

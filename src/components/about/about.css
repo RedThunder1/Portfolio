@@ -1,6 +1,9 @@
 .about {
+    position: relative;
     text-align: center;
     display: block;
+    z-index: 2;
+    background-color: #202324;
 }
 
 .about > h1 {
