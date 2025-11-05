@@ -17,16 +17,24 @@
     color: white;
 }
 
-.thunderbox_project {
+.project {
     width: 834px;
     height: 415px;
-    background: linear-gradient( rgba(0, 0, 0, 0.35) 100%, rgba(0, 0, 0, 0.35)100%),url('../../assets/ThunderBoxScreen.png');
-    background-size: cover;
     transition: all 200ms ease-in-out;
     margin: 10px;
     display: grid;
     border-radius: 5px;
     position: relative;
+}
+
+.thunderbox {
+    background: linear-gradient( rgba(0, 0, 0, 0.35) 100%, rgba(0, 0, 0, 0.35)100%),url('../../assets/ThunderBoxScreen.png');
+    background-size: cover;
+}
+
+.vector {
+    background: linear-gradient( rgba(0, 0, 0, 0.35) 100%, rgba(0, 0, 0, 0.35)100%),url('../../assets/VectorScreen.png');
+    background-size: cover;
 }
 
 .movement_div {
@@ -36,15 +44,15 @@
     backdrop-filter: blur(5px);
 }
 
-.thunderbox_project:hover {
+.project:hover {
     transform: scale(1.02)
 }
 
-.thunderbox_project:hover > p {
+.project:hover > p {
     opacity: 100;
 }
 
-.thunderbox_project > h2 {
+.project > h2 {
     font-size: 55px;
 }
 
@@ -56,7 +64,7 @@
     transition: 200ms;
 }
 
-.tb-description {
+.description {
     padding: 45px;
     font-size: 20px;
 }
